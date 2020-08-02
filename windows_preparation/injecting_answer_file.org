@@ -1,0 +1,15 @@
+* Injecting an answer file
+  The answer file (unattend.xml) is located at %systemdrive%\Windows\Panther\unattend.xml
+
+** Injecting an answer file into a sysprepped image
+   It is possible to inject an answer file into a sysprepped image, in order to customise 
+   the Windows Out of the Box Experience (OOBE) segment, which is the last step in a Windows installation before
+   the user is taken to the Windows desktop.
+
+
+** Injecting an answer file into a sysprepped image that has reached OOBE. 
+   The answer file must be injected before the image is booted and the OOBE screen is reached. Otherwise, a sort
+   of counter will be "tripped", that causes Windows to ignore the answer file on the next reboot. It may be possible
+   to get Windows to detect the answer file without having to sysprep the image all over again - I am currently
+   researching this!
+
