@@ -10,6 +10,6 @@
 ** Injecting an answer file into a sysprepped image that has reached OOBE. 
    The answer file must be injected before the image is booted and the OOBE screen is reached. Otherwise, a sort
    of counter will be "tripped", that causes Windows to ignore the answer file on the next reboot. It may be possible
-   to get Windows to detect the answer file without having to sysprep the image all over again - I am currently
-   researching this!
+   to get Windows to detect the answer file without having to sysprep the image all over again, although there
+   is no official documentation on this. I am currently researching though! 
 
