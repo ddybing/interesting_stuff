@@ -11,5 +11,11 @@
    The answer file must be injected before the image is booted and the OOBE screen is reached. Otherwise, a sort
    of counter will be "tripped", that causes Windows to ignore the answer file on the next reboot. It may be possible
    to get Windows to detect the answer file without having to sysprep the image all over again, although there
-   is no official documentation on this. I am currently researching though! 
+   is no official documentation on this. I am currently researching though!
 
+   What I've tried:
+*** DONE Replace the registry hives with those of a system that has been sysprepped
+    Still uncertain what the actual cause was, but the computer got stuck at boot screen (spinning wheel of death).
+
+*** TODO Replace the contents of the HKLM\SYSTEM\Setup registry key.
+ 
